@@ -18,6 +18,12 @@
     <ClCompile Include="source\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="source\ch2\first.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ch3\point2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resource\Lenna.png">
