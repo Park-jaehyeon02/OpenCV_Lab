@@ -33,6 +33,9 @@
     <ClCompile Include="source\ch3\rect.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="source\ch3\vec.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resource\Lenna.png">
