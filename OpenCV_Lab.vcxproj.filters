@@ -69,9 +69,6 @@
     <ClCompile Include="source\ch3\mat_resize.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="source\ch3\mat_copy.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="source\ch3\vector_init.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>

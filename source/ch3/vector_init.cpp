@@ -15,8 +15,8 @@ int main() {
 
 	// 배열원소로 벡터 초기화
 	vector<Size> v3(arr_size, arr_size + sizeof(arr_size) / sizeof(Size));	//Size형 배열 선언
-	vector<Size> v4(arr_int+2, arr_int + sizeof(arr_int) / sizeof(int));	//Size형 배열 선언
-
+	vector<int> v4(arr_int + 2 , arr_int + sizeof(arr_int) / sizeof(int));	//Size형 배열 선언
+	
 	cout << "[v1] " << (Mat)v1 << endl;	//형변환 후 출력
 	cout << "[v2] " << ((Mat)v2).reshape(1, 1) << endl;
 	cout << "[v3] " << ((Mat)v3).reshape(1, 1) << endl;
