@@ -9,10 +9,7 @@ using namespace std;
 
 int main(int ac, char** av) {
 
-	Mat img = imread("./resource/Lenna.png");
-
-	imshow("img", img);
-	waitKey(0);
+	cout << Error::StsDivByZero << endl;
 
 	return 0;
 }
