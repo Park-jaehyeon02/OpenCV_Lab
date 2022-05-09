@@ -24,6 +24,7 @@ int main()
 		}
 		catch (cv::Exception& e)
 		{
+			cout << cv::Exception();
 			cout << "Exception code (" << e.code << "):" << e.what();
 			cout << endl;
 			if (e.code == Error::StsAssert)
