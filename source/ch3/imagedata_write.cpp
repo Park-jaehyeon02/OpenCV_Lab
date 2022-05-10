@@ -7,5 +7,5 @@ int main()
 	CV_Assert(fs_r.isOpened());
 
 	FileNode node_pic = fs_r["picture"];
-	vector
+	return 0;
 }
