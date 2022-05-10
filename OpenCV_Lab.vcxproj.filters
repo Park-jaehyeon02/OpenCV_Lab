@@ -72,22 +72,31 @@
     <ClCompile Include="source\ch3\vector_init.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="source\ch3\write_filestorage.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\read_filestorage.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="source\ch3\mat_reshape.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="source\ch3\mat_copy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="source\ch3\window_resize.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ch3\read_filestorage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ch3\write_filestorage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="source\ch3\imagedata_write.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="source\ch4\window_resize.cpp">
+    <ClCompile Include="source\ch4\imagedata_write.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ch4\write_filestorage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ch4\read_filestorage.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -95,5 +104,8 @@
     <Image Include="resource\Lenna.png">
       <Filter>리소스 파일</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="test.xml" />
   </ItemGroup>
 </Project>

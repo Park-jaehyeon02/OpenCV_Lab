@@ -13,17 +13,17 @@ int main() {
 	cout << "university " << university << endl;
 	cout << "name " << name << endl;
 	cout << "age " << age << endl;
+
 	// Äİ·º¼Ç ³ëµå °¡Á®¿À±â
 	FileNode node_pic = fs["picture"];
 	FileNode node_hd = fs["hardware"];
 
 	try {
-		if (node_pic.type() != FileNode::SEQ)
-			CV_Error(Error::StsError, "½ÃÄö½º ³ëµå°¡ ¾Æ´Õ´Ï´Ù.");
-		if (node_hd.isMap())
-			CV_Error(Error::StsError, "¸ÊÇÎ ³ëµå°¡ ¾Æ´Õ´Ï´Ù.");
+		if (node_pic.type() != FileNode::SEQ) CV_Error(Error::StsError, "½ÃÄö½º ³ëµå°¡ ¾Æ´Õ´Ï´Ù.");
+		if (!node_hd.isMap()) CV_Error(Error::StsError, "¸ÊÇÎ ³ëµå°¡ ¾Æ´Õ´Ï´Ù.");
 	}
 	catch (Exception& e) {
+		cout << "Exit" << endl;
 		exit(1);
 	}
 

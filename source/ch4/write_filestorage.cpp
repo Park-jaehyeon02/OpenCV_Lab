@@ -9,7 +9,7 @@ int main()
 	fs << "name" << name;
 	fs << "age" << 20;
 	fs << "university" << "순천향대학교";
-	fs << "picture" << "[" << "mine1.jpg" << "mine2.jpg" << "mine3.jpg" << "]";
+	fs << "picture" << "[" << "mine1.jpg" <<" " << "mine2.jpg" << "mine3.jpg" << "]";
 
 	fs << "hardware" << "{";
 	fs << "cpu" << 25;
