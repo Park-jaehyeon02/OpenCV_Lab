@@ -93,6 +93,9 @@
     <ClCompile Include="source\ch4\window_move.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="source\ch4\window_resize.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resource\Lenna.png">
