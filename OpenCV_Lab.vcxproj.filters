@@ -90,6 +90,9 @@
     <ClCompile Include="source\ch3\read_filestorage.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="source\ch3\imagedata_write.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resource\Lenna.png">
