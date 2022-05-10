@@ -69,45 +69,7 @@
     <ClCompile Include="source\ch3\mat_resize.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="source\ch3\vector_use.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\vector_init.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="source\ch3\vector_reserve.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="source\ch3\vector_use.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\vector_init.cpp">
-=======
-    <ClCompile Include="source\ch3\range_test2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\range_test1.cpp">
->>>>>>> 3815ae330ae6a9cfe3f7080f85a0f158429f70e0
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\mat_reshape.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\mat_copy.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="source\ch3\write_filestorage.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\read_filestorage.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\imagedata_write.cpp">
-=======
-    <ClCompile Include="source\ch4\window_move.cpp">
->>>>>>> 3815ae330ae6a9cfe3f7080f85a0f158429f70e0
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
