@@ -1,4 +1,6 @@
 #include <opencv2/opencv.hpp>
+#include <iostream>
+
 using namespace std;
 using namespace cv;
 
@@ -13,7 +15,7 @@ int main()
 	m1(1, 1) = saturate_cast<uchar>(300);
 
 	m2(0, 0) = -50;
-	m2(0, 1) = 8000;
+	m2(0, 1) = 80000;
 	m2(1, 0) = saturate_cast<unsigned short>(-50);
 	m2(1, 1) = saturate_cast<unsigned short>(80000);
 
