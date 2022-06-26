@@ -1,4 +1,5 @@
 #include <opencv2/opencv.hpp>
+
 using namespace std;
 using namespace cv;
 
@@ -16,7 +17,7 @@ int main()
 		images.push_back(tmp);
 		imshow(node_pic[i], images[i]);
 	}
-
+	 
 	FileStorage fs_w("result.xml", FileStorage::WRITE);
 	CV_Assert(fs_w.isOpened());
 

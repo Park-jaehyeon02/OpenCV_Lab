@@ -81,15 +81,6 @@
     <ClCompile Include="source\ch3\window_resize.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="source\ch3\read_filestorage.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\write_filestorage.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="source\ch3\imagedata_write.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="source\ch4\imagedata_write.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -97,6 +88,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="source\ch4\read_filestorage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ch6\mat_at.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
