@@ -12,8 +12,9 @@ int main() {
 	};
 
 	Mat m1(3, 3, CV_32S, data);
+	Point pt(1, 0);
 
-	cout << m1.at<int>(3, 1) << endl << endl;
+	cout << m1.at<int>(1,0)<< endl << endl;
 
 	return 0;
 }
